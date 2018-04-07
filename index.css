@@ -1,0 +1,36 @@
+body {
+  background-color: #596275;
+}
+h1{
+  color: #eb2f06;;
+  text-align: center;
+  font-family: arial;
+}
+.links{
+  text-decoration: none;
+  font-size: 15pt;
+  color:grey;
+
+}
+.links:hover{
+  font-style: italic;
+  color:#eb2f06;
+
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #596275;
+    color: grey;
+    text-align: center;
+    font-family: arial;
+
+}
+.roda{
+  text-decoration: none;
+  color:grey;
+}
+.roda:hover{
+  color:#eb2f06;

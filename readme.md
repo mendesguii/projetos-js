@@ -1,0 +1,1 @@
+Grupo de arquivos com o intuito de testar alguns scripts em Javascript.
