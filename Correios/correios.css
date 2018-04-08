@@ -1,0 +1,36 @@
+ /* https://flatuicolors.com/palette/ru */
+body{
+  background-color:#596275;
+}
+
+h1{
+  color: #ea8685;
+  text-align: center;
+  font-family: arial;
+}
+#boxdepes{
+  background-color:  #303952;
+  border-color: #ea8685;
+  padding-left: 20px;
+  padding-right: 10px;
+  filter: drop-shadow(8px 8px 10px #303952);
+  color: #FFF;
+  width: 300px;
+  height: 30px;
+
+}
+button{
+  background-color: #303952;
+  color: #ea8685;
+  border-color: #ea8685;
+  height: 30px;
+  width: 150px;
+}
+
+#boxdepes:hover{
+  filter: drop-shadow(8px 8px 10px #ea8685);
+}
+
+button:hover{
+  filter: drop-shadow(8px 8px 10px #303952);
+}

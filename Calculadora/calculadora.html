@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<link rel="icon" href="favicon.ico">
+<meta charset="utf-8">
+<html>
+<link rel="stylesheet" href='calculadora.css'>
+<head>
+<title> Calculadora </title>
+<center><h1>Calculadora</h1></center>
+<br><br><br><br>
+</head>
+<body>
+<center>
+<input id='boxdecalc' type="text" placeholder="Digite os números">
+<center>
+<br><br>
+<p>
+<button onclick="conta(1)">+</button>
+<button onclick="conta(2)">-</button>
+<button onclick="conta(3)">/</button>
+<button onclick="conta(4)">*</button>
+<button onclick="conta(5)">%</button>
+<button onclick="conta(6)">√¯</button>
+</p>
+<p>
+<button id ='7' onclick="digitar(7)">7</button>
+<button id ='8' onclick="digitar(8)">8</button>
+<button id ='9' onclick="digitar(9)">9</button>
+</p>
+<p>
+<button id ='4' onclick="digitar(4)">4</button>
+<button id ='5' onclick="digitar(5)">5</button>
+<button id ='6' onclick="digitar(6)">6</button>
+</p>
+<p>
+<button id ='1' onclick="digitar(1)">1</button>
+<button id ='2' onclick="digitar(2)">2</button>
+<button id ='3' onclick="digitar(3)">3</button>
+</p>
+<p>
+<button id ='0' onclick="digitar(0)">0</button>
+<button onclick="clean()">CE</button>
+<button onclick="result()">=</button>
+</P>
+
+<script src ="calculadora.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<link rel="icon" href="favicon.ico">
+<meta charset="utf-8">
+<link rel="stylesheet" href="correios.css"
+<html>
+<head>
+<title> Cadê a Encomenda </title>
+<h1> Cadê a Encomenda ? </h1>
+</head>
+<body>
+<center>
+<br><br><br><br><br><br><br><br><br><br>
+<input type="text" id="boxdepes" placeholder="                    - Código da Encomenda -" autofocus>
+<br><br><br><br>
+<button id = 'btn' onclick="pega_cod()">Pesquisar</button>
+<script>
+
+var input = document.getElementById("boxdepes");
+input.addEventListener("keyup", function(event) {
+    event.preventDefault();
+    if (event.keyCode === 13) {
+        document.getElementById("btn").click();
+    }
+});
+  function pega_cod()
+  {
+    var input = document.getElementById("boxdepes").value;
+    if (input.length < 13)
+    {
+      alert("Código Inválido");
+    }
+    else
+    {
+      window.location.href= 'http://rastreie.me/' + input;
+    }
+
+  }
+</script>
+<center>
+</body>
+</html>
