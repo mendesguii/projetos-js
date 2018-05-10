@@ -1,2 +1,2 @@
 # Projetos de Javascript
-Grupo de arquivos com o intuito de testar alguns scripts em *Javascript*.
+Projeto de site que agrupa vários *mini-projetos* utilizando HTML, CSS e Javascript.
