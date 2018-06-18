@@ -1,36 +1,75 @@
-body {
-  background-color: #596275;
-}
-h1{
-  color: #eb2f06;;
-  text-align: center;
-  font-family: arial;
-}
-.links{
-  text-decoration: none;
-  font-size: 15pt;
-  color:grey;
-
-}
-.links:hover{
-  font-style: italic;
-  color:#eb2f06;
-
-}
-.footer {
+body
+ {
+    background-color: #22232b;
+  }
+  h1{
+    color: #eb2f06;;
+    text-align: center;
+    font-family: arial;
+  }
+  h3{
+    color: #eb2f06;
+    text-align: left;
+    font-family: arial;
+  }
+  .links{
+    text-decoration: none;
+    font-size: 15pt;
+    color:grey;
+  
+  }
+  .links:hover
+  {
+    font-style: italic;
+    color:#eb2f06;
+  
+  }
+  .footer 
+  {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #111216;
+      color: grey;
+      text-align: center;
+      font-family: arial;
+  
+  }
+  .header 
+  {
     position: fixed;
     left: 0;
-    bottom: 0;
+    top: 0;
     width: 100%;
-    background-color: #596275;
+    background-color: #111216;
     color: grey;
     text-align: center;
     font-family: arial;
 
 }
-.roda{
-  text-decoration: none;
-  color:grey;
+.header2 
+{
+  position: fixed;
+  left: 92%;
+  top: 1%;
+  width: 25%;
+  background-color: #111216;
+  color: grey;
+  text-align: center;
+  font-family: arial;
+
 }
-.roda:hover{
-  color:#eb2f06;
+  .rodape{
+    text-decoration: none;
+    color:grey;
+  }
+  .rodape:hover{
+    color:#eb2f06;
+  }
+.projetos{
+  position: fixed;
+  top: 200px;
+  margin: auto;
+  width: 100%;
+}
