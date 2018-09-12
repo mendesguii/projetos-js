@@ -12,7 +12,9 @@
 <br><br><br><br><br><br><br><br><br><br>
 <input type="text" id="boxdepes" placeholder="                    - Código da Encomenda -" autofocus>
 <br><br><br><br>
-<button id = 'btn' onclick="pega_cod()">Pesquisar</button>
+<form method="post" action="https://www2.correios.com.br/sistemas/rastreamento/resultado.cfm">
+<button id = 'btn' name='Objetos' submit="submit" onclick="pega_cod()">Pesquisar</button>
+</form>
 <script>
 
 var input = document.getElementById("boxdepes");
@@ -28,10 +30,6 @@ input.addEventListener("keyup", function(event) {
     if (input.length < 13)
     {
       alert("Código Inválido");
-    }
-    else
-    {
-      window.location.href= 'http://rastreie.me/' + input;
     }
 
   }
